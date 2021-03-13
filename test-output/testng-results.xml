@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48238" started-at="2021-03-13T23:45:11 EET" finished-at="2021-03-13T23:46:00 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48238" started-at="2021-03-13T23:45:11 EET" finished-at="2021-03-13T23:46:00 EET">
+      <class name="TestCase.vodafoneTask">
+        <test-method status="PASS" signature="intiateDriver(java.lang.String)[pri:0, instance:TestCase.vodafoneTask@7275c74b]" name="intiateDriver" is-config="true" duration-ms="11031" started-at="2021-03-13T23:45:00 EET" finished-at="2021-03-13T23:45:11 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiateDriver -->
+        <test-method status="PASS" signature="VerifyregistrationForm()[pri:1, instance:TestCase.vodafoneTask@7275c74b]" name="VerifyregistrationForm" duration-ms="15183" started-at="2021-03-13T23:45:11 EET" finished-at="2021-03-13T23:45:27 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyregistrationForm -->
+        <test-method status="PASS" signature="VerifyLogin_()[pri:0, instance:TestCase.vodafoneTask@7275c74b]" name="VerifyLogin_" duration-ms="4685" started-at="2021-03-13T23:45:27 EET" depends-on-methods="TestCase.vodafoneTask.VerifyregistrationForm" finished-at="2021-03-13T23:45:31 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin_ -->
+        <test-method status="PASS" signature="VerifyCartCheckOut()[pri:0, instance:TestCase.vodafoneTask@7275c74b]" name="VerifyCartCheckOut" duration-ms="28260" started-at="2021-03-13T23:45:31 EET" depends-on-methods="TestCase.vodafoneTask.VerifyLogin_" finished-at="2021-03-13T23:46:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCartCheckOut -->
+        <test-method status="PASS" signature="StopDriver()[pri:0, instance:TestCase.vodafoneTask@7275c74b]" name="StopDriver" is-config="true" duration-ms="1993" started-at="2021-03-13T23:46:00 EET" finished-at="2021-03-13T23:46:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+      </class> <!-- TestCase.vodafoneTask -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
